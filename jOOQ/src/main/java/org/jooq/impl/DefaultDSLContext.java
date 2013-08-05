@@ -181,6 +181,9 @@ import org.jooq.exception.DataAccessException;
 import org.jooq.exception.SQLDialectNotSupportedException;
 import org.jooq.impl.BatchCRUD.Action;
 import org.jooq.tools.csv.CSVReader;
+import javax.persistence.InheritanceType;
+import org.jooq.jpa.JPATable;
+
 
 /**
  * @author Lukas Eder
@@ -1494,6 +1497,23 @@ public class DefaultDSLContext implements DSLContext, Serializable {
         result.from(source);
         return result;
     }
+
+	@Override
+	public <R extends Record> R newJPARecord(JPATable<R> table) {
+		R result = Utils.newRecord((Table<R>)table, configuration);
+		try{
+		 	result.setValue((Field<String>)table.field(table.getDiscriminatorColumn().toUpperCase()),
+					table.getDiscriminatorValue());
+    }
+    catch(Exception e){}
+	
+    try{
+        	result.setValue((Field<String>)table.field(table.getParentTable().getDiscriminatorColumn().toUpperCase()),
+					table.getParentTable().getDiscriminatorValue());
+    }
+    catch(Exception e){}
+		return result;
+	}
 
     @Override
     public <R extends Record> Result<R> newResult(Table<R> table) {

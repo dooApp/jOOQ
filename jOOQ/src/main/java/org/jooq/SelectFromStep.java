@@ -35,11 +35,12 @@
  */
 package org.jooq;
 
-import java.util.Collection;
-
 import org.jooq.api.annotation.State;
 import org.jooq.api.annotation.Transition;
 import org.jooq.impl.DSL;
+import org.jooq.jpa.JPATable;
+
+import java.util.Collection;
 
 /**
  * This type is used for the {@link Select}'s DSL API when selecting generic
@@ -86,95 +87,99 @@ import org.jooq.impl.DSL;
 @State
 public interface SelectFromStep<R extends Record> extends SelectWhereStep<R> {
 
-    /**
-     * Add a <code>FROM</code> clause to the query
-     */
-    @Support
-    @Transition(
-        name = "FROM",
-        args = "Table+"
-    )
-    SelectJoinStep<R> from(TableLike<?>... table);
-
-    /**
-     * Add a <code>FROM</code> clause to the query
-     */
-    @Support
-    @Transition(
-        name = "FROM",
-        args = "Table+"
-    )
-    SelectJoinStep<R> from(Collection<? extends TableLike<?>> tables);
-
-    /**
-     * Add a <code>FROM</code> clause to the query
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#table(String)
-     */
-    @Support
-    SelectJoinStep<R> from(String sql);
-
-    /**
-     * Add a <code>FROM</code> clause to the query
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#table(String, Object...)
-     */
-    @Support
-    SelectJoinStep<R> from(String sql, Object... bindings);
-
-    /**
-     * Add a <code>FROM</code> clause to the query
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#table(String, QueryPart...)
-     */
-    @Support
-    SelectJoinStep<R> from(String sql, QueryPart... parts);
-
-    /**
-     * Add an Oracle-style hint to the preceding select clause
-     * <p>
-     * Example: <code><pre>
-     * DSLContext create = DSL.using(configuration);
-     *
-     * create.select(field1, field2)
-     *       .hint("/*+ALL_ROWS&#42;/")
-     *       .from(table1)
-     *       .fetch();
-     * </pre></code>
-     * <p>
-     * You can also use this clause for any other database, that accepts hints
-     * or options at the same syntactic location, e.g. for MySQL's
-     * <code>SQL_CALC_FOUND_ROWS</code> option: <code><pre>
-     * create.select(field1, field2)
-     *       .hint("SQL_CALC_FOUND_ROWS")
-     *       .from(table1)
-     *       .fetch();
-     * </pre></code>
-     * <p>
-     * The outcome of such a query is this: <code><pre>
-     * SELECT [hint] field1, field2 FROM table1
-     * </pre></code>
-     * <p>
-     * For SQL Server style table hints, see {@link Table#with(String)}
-     *
-     * @see Table#with(String)
-     * @see SelectQuery#addHint(String)
-     */
-    @Support
-    SelectFromStep<R> hint(String hint);
+	/**
+	 * Add a <code>FROM</code> clause to the query
+	 */
+	@Support
+	@Transition(
+			name = "FROM",
+			args = "Table+"
+	)
+	SelectJoinStep<R> from(TableLike<?>... table);
+	/**
+	 *  Add support of JPATable
+	 */
+	@Support
+	@Transition(
+			name = "FROM",
+			args = "JPATable"
+	)
+	SelectJoinStep<R> from(JPATable<?> table);
+	/**
+	 * Add a <code>FROM</code> clause to the query
+	 */
+	@Support
+	@Transition(
+			name = "FROM",
+			args = "Table+"
+	)
+	SelectJoinStep<R> from(Collection<? extends TableLike<?>> tables);
+	/**
+	 * Add a <code>FROM</code> clause to the query
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#table(String)
+	 */
+	@Support
+	SelectJoinStep<R> from(String sql);
+	/**
+	 * Add a <code>FROM</code> clause to the query
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#table(String, Object...)
+	 */
+	@Support
+	SelectJoinStep<R> from(String sql, Object... bindings);
+	/**
+	 * Add a <code>FROM</code> clause to the query
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#table(String, QueryPart...)
+	 */
+	@Support
+	SelectJoinStep<R> from(String sql, QueryPart... parts);
+	/**
+	 * Add an Oracle-style hint to the preceding select clause
+	 * <p>
+	 * Example: <code><pre>
+	 * DSLContext create = DSL.using(configuration);
+	 *
+	 * create.select(field1, field2)
+	 *       .hint("/*+ALL_ROWS&#42;/")
+	 *       .from(table1)
+	 *       .fetch();
+	 * </pre></code>
+	 * <p>
+	 * You can also use this clause for any other database, that accepts hints
+	 * or options at the same syntactic location, e.g. for MySQL's
+	 * <code>SQL_CALC_FOUND_ROWS</code> option: <code><pre>
+	 * create.select(field1, field2)
+	 *       .hint("SQL_CALC_FOUND_ROWS")
+	 *       .from(table1)
+	 *       .fetch();
+	 * </pre></code>
+	 * <p>
+	 * The outcome of such a query is this: <code><pre>
+	 * SELECT [hint] field1, field2 FROM table1
+	 * </pre></code>
+	 * <p>
+	 * For SQL Server style table hints, see {@link Table#with(String)}
+	 *
+	 * @see Table#with(String)
+	 * @see SelectQuery#addHint(String)
+	 */
+	@Support
+	SelectFromStep<R> hint(String hint);
 }

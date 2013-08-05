@@ -35,34 +35,6 @@
  */
 package org.jooq;
 
-import static org.jooq.SQLDialect.ASE;
-import static org.jooq.SQLDialect.CUBRID;
-import static org.jooq.SQLDialect.DB2;
-import static org.jooq.SQLDialect.DERBY;
-import static org.jooq.SQLDialect.FIREBIRD;
-import static org.jooq.SQLDialect.H2;
-import static org.jooq.SQLDialect.HSQLDB;
-import static org.jooq.SQLDialect.INGRES;
-import static org.jooq.SQLDialect.MARIADB;
-import static org.jooq.SQLDialect.MYSQL;
-import static org.jooq.SQLDialect.ORACLE;
-import static org.jooq.SQLDialect.POSTGRES;
-import static org.jooq.SQLDialect.SQLITE;
-import static org.jooq.SQLDialect.SQLSERVER;
-import static org.jooq.SQLDialect.SQLSERVER2012;
-import static org.jooq.SQLDialect.SYBASE;
-
-import java.math.BigInteger;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Generated;
-
 import org.jooq.api.annotation.State;
 import org.jooq.api.annotation.Transition;
 import org.jooq.conf.ParamType;
@@ -72,6 +44,19 @@ import org.jooq.exception.DataAccessException;
 import org.jooq.exception.InvalidResultException;
 import org.jooq.exception.MappingException;
 import org.jooq.impl.DSL;
+import org.jooq.jpa.JPATable;
+
+import javax.annotation.Generated;
+import java.math.BigInteger;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+
+import static org.jooq.SQLDialect.*;
 
 /**
  * A contextual DSL providing "attached" implementations to the
@@ -1454,7 +1439,8 @@ public interface DSLContext {
     @Support
     SelectSelectStep<Record> select(Field<?>... fields);
 
-    // [jooq-tools] START [select]
+    // [jooq-tools] START [select]
+
     /**
      * Create a new DSL select statement.
      * <p>
@@ -2253,7 +2239,8 @@ public interface DSLContext {
     @Support
     SelectSelectStep<Record> selectDistinct(Field<?>... fields);
 
-    // [jooq-tools] START [selectDistinct]
+    // [jooq-tools] START [selectDistinct]
+
     /**
      * Create a new DSL select statement.
      * <p>
@@ -3135,7 +3122,8 @@ public interface DSLContext {
     @Support
     <R extends Record> InsertSetStep<R> insertInto(Table<R> into);
 
-    // [jooq-tools] START [insert]
+    // [jooq-tools] START [insert]
+
     /**
      * Create a new DSL insert statement.
      * <p>
@@ -3690,7 +3678,8 @@ public interface DSLContext {
     )
     <R extends Record> MergeUsingStep<R> mergeInto(Table<R> table);
 
-    // [jooq-tools] START [merge]
+    // [jooq-tools] START [merge]
+
     /**
      * Create a new DSL merge statement (H2-specific syntax).
      * <p>
@@ -4673,6 +4662,20 @@ public interface DSLContext {
      * @return The new record
      */
     <R extends Record> R newRecord(Table<R> table);
+
+	/**
+	 * Create a new {@link Record} that can be inserted into the corresponding
+	 * table.
+	 * <p>
+	 * The resulting record is attached to this {@link Configuration} by
+	 * default. Use {@link Settings#isAttachRecords()} to override this
+	 * behaviour.
+	 *
+	 * @param <R> The generic record type
+	 * @param table The table holding records of type &lt;R&gt;
+	 * @return The new record
+	 */
+	<R extends Record> R newJPARecord(JPATable<R> table);
 
     /**
      * Create a new pre-filled {@link Record} that can be inserted into the
