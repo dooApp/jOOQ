@@ -35,15 +35,15 @@
  */
 package org.jooq.util;
 
-import static java.util.Arrays.asList;
-import static java.util.Collections.unmodifiableSet;
+import org.jooq.SQLDialect;
+import org.jooq.exception.SQLDialectNotSupportedException;
+import org.jooq.util.h2.H2DataType;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.jooq.SQLDialect;
-import org.jooq.exception.SQLDialectNotSupportedException;
-import org.jooq.util.h2.H2DataType;
+import static java.util.Arrays.asList;
+import static java.util.Collections.unmodifiableSet;
 
 /**
  * @author Lukas Eder

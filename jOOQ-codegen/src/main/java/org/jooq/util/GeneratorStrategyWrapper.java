@@ -35,25 +35,18 @@
  */
 package org.jooq.util;
 
-import static org.jooq.util.GenerationUtil.convertToJavaIdentifier;
-
-import java.io.Serializable;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
 import org.jooq.Record;
 import org.jooq.impl.AbstractRoutine;
 import org.jooq.impl.TableRecordImpl;
 import org.jooq.impl.UDTRecordImpl;
 import org.jooq.impl.UpdatableRecordImpl;
 import org.jooq.tools.StringUtils;
+
+import java.io.Serializable;
+import java.lang.reflect.Method;
+import java.util.*;
+
+import static org.jooq.util.GenerationUtil.convertToJavaIdentifier;
 
 /**
  * A wrapper for generator strategies preventing some common compilation errors

@@ -35,10 +35,9 @@
  */
 package org.jooq;
 
-import java.util.Collection;
-
 import org.jooq.api.annotation.State;
 
+import java.util.Collection;
 
 /**
  * This type is used for the {@link Select}'s DSL API when selecting generic
@@ -96,4 +95,6 @@ public interface SelectSelectStep<R extends Record> extends SelectFromStep<R> {
      */
     @Support
     SelectSelectStep<Record> select(Collection<? extends Field<?>> fields);
+
+
 }

@@ -35,16 +35,14 @@
  */
 package org.jooq.util.maven;
 
-import java.io.StringWriter;
-
-import javax.xml.bind.JAXB;
-
-import org.jooq.util.GenerationTool;
-import org.jooq.util.jaxb.Configuration;
-
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.project.MavenProject;
+import org.jooq.util.GenerationTool;
+import org.jooq.util.jaxb.Configuration;
+
+import javax.xml.bind.JAXB;
+import java.io.StringWriter;
 
 /**
  * @goal generate
@@ -54,45 +52,42 @@ import org.apache.maven.project.MavenProject;
  */
 public class Plugin extends AbstractMojo {
 
-    /**
-     * The Maven project.
-     *
-     * @parameter expression="${project}"
-     * @required
-     * @readonly
-     */
-    private MavenProject                 project;
+	/**
+	 * The Maven project.
+	 *
+	 * @parameter expression="${project}"
+	 * @required
+	 * @readonly
+	 */
+	private MavenProject project;
 
-    /**
-     * The jdbc settings.
-     *
-     * @parameter
-     */
-    private org.jooq.util.jaxb.Jdbc      jdbc;
+	/**
+	 * The jdbc settings.
+	 *
+	 * @parameter
+	 */
+	private org.jooq.util.jaxb.Jdbc jdbc;
 
-    /**
-     * The generator settings
-     *
-     * @parameter
-     */
-    private org.jooq.util.jaxb.Generator generator;
+	/**
+	 * The generator settings
+	 *
+	 * @parameter
+	 */
+	private org.jooq.util.jaxb.Generator generator;
 
-    @Override
-    public void execute() throws MojoExecutionException {
-        try {
-            Configuration configuration = new Configuration();
-            configuration.setJdbc(jdbc);
-            configuration.setGenerator(generator);
-
-            StringWriter writer = new StringWriter();
-            JAXB.marshal(configuration, writer);
-
-            getLog().info("Using this configuration:\n" + writer.toString());
-            GenerationTool.main(configuration);
-        }
-        catch (Exception ex) {
-            throw new MojoExecutionException("Error running jOOQ code generation tool", ex);
-        }
-        project.addCompileSourceRoot(generator.getTarget().getDirectory());
-    }
+	@Override
+	public void execute() throws MojoExecutionException {
+		try {
+			Configuration configuration = new Configuration();
+			configuration.setJdbc(jdbc);
+			configuration.setGenerator(generator);
+			StringWriter writer = new StringWriter();
+			JAXB.marshal(configuration, writer);
+			getLog().info("Using this configuration:\n" + writer.toString());
+			GenerationTool.main(configuration);
+		} catch (Exception ex) {
+			throw new MojoExecutionException("Error running jOOQ code generation tool", ex);
+		}
+		project.addCompileSourceRoot(generator.getTarget().getDirectory());
+	}
 }

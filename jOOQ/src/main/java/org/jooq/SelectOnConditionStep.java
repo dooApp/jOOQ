@@ -38,7 +38,6 @@ package org.jooq;
 import org.jooq.api.annotation.State;
 import org.jooq.impl.DSL;
 
-
 /**
  * This type is used for the {@link Select}'s DSL API when selecting generic
  * {@link Record} types.
@@ -84,171 +83,154 @@ import org.jooq.impl.DSL;
 @State
 public interface SelectOnConditionStep<R extends Record> extends SelectJoinStep<R> {
 
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#AND} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> and(Condition condition);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#AND} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> and(Field<Boolean> condition);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#AND} operator and proceed to the next step.
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#condition(String)
-     */
-    @Support
-    SelectOnConditionStep<R> and(String sql);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#AND} operator and proceed to the next step.
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#condition(String, Object...)
-     */
-    @Support
-    SelectOnConditionStep<R> and(String sql, Object... bindings);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#AND} operator and proceed to the next step.
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#condition(String, QueryPart...)
-     */
-    @Support
-    SelectOnConditionStep<R> and(String sql, QueryPart... parts);
-
-    /**
-     * Combine the currently assembled conditions with a negated other one using
-     * the {@link Operator#AND} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> andNot(Condition condition);
-
-    /**
-     * Combine the currently assembled conditions with a negated other one using
-     * the {@link Operator#AND} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> andNot(Field<Boolean> condition);
-
-    /**
-     * Combine the currently assembled conditions with an EXISTS clause using
-     * the {@link Operator#AND} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> andExists(Select<?> select);
-
-    /**
-     * Combine the currently assembled conditions with a NOT EXISTS clause using
-     * the {@link Operator#AND} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> andNotExists(Select<?> select);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#OR} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> or(Condition condition);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#OR} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> or(Field<Boolean> condition);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#OR} operator and proceed to the next step.
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#condition(String)
-     */
-    @Support
-    SelectOnConditionStep<R> or(String sql);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#OR} operator and proceed to the next step.
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#condition(String, Object...)
-     */
-    @Support
-    SelectOnConditionStep<R> or(String sql, Object... bindings);
-
-    /**
-     * Combine the currently assembled conditions with another one using the
-     * {@link Operator#OR} operator and proceed to the next step.
-     * <p>
-     * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
-     * guarantee syntax integrity. You may also create the possibility of
-     * malicious SQL injection. Be sure to properly use bind variables and/or
-     * escape literals when concatenated into SQL clauses!
-     *
-     * @see DSL#condition(String, QueryPart...)
-     */
-    @Support
-    SelectOnConditionStep<R> or(String sql, QueryPart... parts);
-
-    /**
-     * Combine the currently assembled conditions with a negated other one using
-     * the {@link Operator#OR} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> orNot(Condition condition);
-
-    /**
-     * Combine the currently assembled conditions with a negated other one using
-     * the {@link Operator#OR} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> orNot(Field<Boolean> condition);
-
-    /**
-     * Combine the currently assembled conditions with an EXISTS clause using
-     * the {@link Operator#OR} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> orExists(Select<?> select);
-
-    /**
-     * Combine the currently assembled conditions with a NOT EXISTS clause using
-     * the {@link Operator#OR} operator and proceed to the next step.
-     */
-    @Support
-    SelectOnConditionStep<R> orNotExists(Select<?> select);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#AND} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> and(Condition condition);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#AND} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> and(Field<Boolean> condition);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#AND} operator and proceed to the next step.
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#condition(String)
+	 */
+	@Support
+	SelectOnConditionStep<R> and(String sql);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#AND} operator and proceed to the next step.
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#condition(String, Object...)
+	 */
+	@Support
+	SelectOnConditionStep<R> and(String sql, Object... bindings);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#AND} operator and proceed to the next step.
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#condition(String, QueryPart...)
+	 */
+	@Support
+	SelectOnConditionStep<R> and(String sql, QueryPart... parts);
+	/**
+	 * Combine the currently assembled conditions with a negated other one using
+	 * the {@link Operator#AND} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> andNot(Condition condition);
+	/**
+	 * Combine the currently assembled conditions with a negated other one using
+	 * the {@link Operator#AND} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> andNot(Field<Boolean> condition);
+	/**
+	 * Combine the currently assembled conditions with an EXISTS clause using
+	 * the {@link Operator#AND} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> andExists(Select<?> select);
+	/**
+	 * Combine the currently assembled conditions with a NOT EXISTS clause using
+	 * the {@link Operator#AND} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> andNotExists(Select<?> select);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#OR} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> or(Condition condition);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#OR} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> or(Field<Boolean> condition);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#OR} operator and proceed to the next step.
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#condition(String)
+	 */
+	@Support
+	SelectOnConditionStep<R> or(String sql);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#OR} operator and proceed to the next step.
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#condition(String, Object...)
+	 */
+	@Support
+	SelectOnConditionStep<R> or(String sql, Object... bindings);
+	/**
+	 * Combine the currently assembled conditions with another one using the
+	 * {@link Operator#OR} operator and proceed to the next step.
+	 * <p>
+	 * <b>NOTE</b>: When inserting plain SQL into jOOQ objects, you must
+	 * guarantee syntax integrity. You may also create the possibility of
+	 * malicious SQL injection. Be sure to properly use bind variables and/or
+	 * escape literals when concatenated into SQL clauses!
+	 *
+	 * @see DSL#condition(String, QueryPart...)
+	 */
+	@Support
+	SelectOnConditionStep<R> or(String sql, QueryPart... parts);
+	/**
+	 * Combine the currently assembled conditions with a negated other one using
+	 * the {@link Operator#OR} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> orNot(Condition condition);
+	/**
+	 * Combine the currently assembled conditions with a negated other one using
+	 * the {@link Operator#OR} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> orNot(Field<Boolean> condition);
+	/**
+	 * Combine the currently assembled conditions with an EXISTS clause using
+	 * the {@link Operator#OR} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> orExists(Select<?> select);
+	/**
+	 * Combine the currently assembled conditions with a NOT EXISTS clause using
+	 * the {@link Operator#OR} operator and proceed to the next step.
+	 */
+	@Support
+	SelectOnConditionStep<R> orNotExists(Select<?> select);
 }

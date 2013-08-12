@@ -35,13 +35,13 @@
  */
 package org.jooq.util;
 
-import static org.jooq.util.GenerationUtil.convertToJavaIdentifier;
+import org.jooq.DAO;
+import org.jooq.tools.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jooq.DAO;
-import org.jooq.tools.StringUtils;
+import static org.jooq.util.GenerationUtil.convertToJavaIdentifier;
 
 /**
  * The default naming strategy for the {@link JavaGenerator}
