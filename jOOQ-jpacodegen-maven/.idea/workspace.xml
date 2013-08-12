@@ -8,7 +8,7 @@
     <file path="/JPAGenerator.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376053576514" ignored="false" />
     <file path="/fragment.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376298913769" ignored="false" />
     <file path="/EntitiesFileWriter.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376297027383" ignored="false" />
-    <file path="W:/jooq-infiltrea/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376300990150" ignored="false" />
+    <file path="W:/jooq-infiltrea/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376301219709" ignored="false" />
     <file path="/JPAJOOQUtils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376057605643" ignored="false" />
     <file path="/JPAJOOQEntity.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376298100256" ignored="false" />
     <file path="/EntityFileWriter.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376297179833" ignored="false" />
@@ -152,7 +152,7 @@
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoy2Table.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376061414508" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl2Table.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376061414508" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/KevinTable.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376061414508" ignored="false" />
-    <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376300990150" ignored="false" />
+    <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376301219709" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChildRecord.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376297291087" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChristopheRecord.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376297291087" ignored="false" />
     <file path="/SubGirl1Table.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376057486442" ignored="false" />
@@ -366,21 +366,6 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/JPAJOOQEntityTest.java" line="20" class="org.jooq.util.maven.JPAJOOQEntityTest" package="org.jooq.util.maven">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/model/JPAEntity.java" line="48" class="org.jooq.util.maven.JPAJOOQEntity" package="org.jooq.util.maven">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -439,21 +424,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JPAEntity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JPAEntity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/model/JPAEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JPAJOOQEntityTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/JPAJOOQEntityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+            <state line="15" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3206239">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -465,15 +439,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/writer/EntityFileWriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Girl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/entity/Girl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -497,19 +462,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Christophe.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/entity/Christophe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JPAUtils.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JPAUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/JPAUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="56" selection-start="304" selection-end="304" vertical-scroll-proportion="0.45503598">
+            <state line="24" column="121" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -591,6 +547,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jOOQ-jpacodegen-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jooq-jpacodegen-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jOOQ-jpacodegen-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jooq-jpacodegen-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jOOQ-jpacodegen-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -764,7 +756,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -781,7 +773,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6421725" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6421725" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -894,43 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/entity/AbstractEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/entity/Christophe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/entity/Girl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/util/maven/JPAJOOQEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/writer/EntityFileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
@@ -947,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/model/JPAEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3206239">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -977,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/JPAUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="56" selection-start="304" selection-end="304" vertical-scroll-proportion="0.45503598">
+        <state line="24" column="121" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
