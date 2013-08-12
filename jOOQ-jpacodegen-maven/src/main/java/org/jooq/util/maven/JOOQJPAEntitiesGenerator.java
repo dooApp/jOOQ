@@ -39,9 +39,10 @@ import org.apache.maven.artifact.DependencyResolutionRequiredException;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.project.MavenProject;
+import org.jooq.util.maven.jpa.util.ReflectionUtils;
 import org.reflections.Reflections;
 
-import javax.persistence.Entity;
+import java.io.File;
 import java.net.MalformedURLException;
 import java.util.Properties;
 
@@ -63,20 +64,32 @@ public class JOOQJPAEntitiesGenerator extends AbstractMojo {
 	private MavenProject project;
 
 	/**
+	 * The Maven project basedir.
+	 *
+	 *  @parameter expression="${basedir}"
+	 *  @require
+	 *  @readonly
+	 */
+	private File basedir;
+
+	/**
 	 * jOOQ JPA Entities Generator properties.
 	 *
 	 * @parameter
 	 */
-	private Properties properties;
+	private Properties settings;
 
 	@Override
 	public void execute() throws MojoExecutionException {
+		settings.put("projectPath", basedir.getPath());
+		for (Object key : settings.keySet()) {
+			getLog().info(key.toString());
+		}
 		try {
 			ReflectionUtils reflectionUtils = new ReflectionUtils(project);
 			Reflections reflections = reflectionUtils.getReflexions();
-			for (Class<?> jpaEntityClass : reflections.getTypesAnnotatedWith(Entity.class)) {
-				getLog().info(jpaEntityClass.getName());
-			}
+			JPAGenerator jpaGenerator = new JPAGenerator(reflections, settings);
+			jpaGenerator.execute();
 		} catch (DependencyResolutionRequiredException e) {
 			getLog().warn(e.getMessage(), e);
 		} catch (MalformedURLException e) {

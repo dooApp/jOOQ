@@ -1,15 +1,15 @@
 package org.jooq.util.maven;
 
-import java.util.ResourceBundle;
-import java.util.concurrent.Executor;
+import org.jooq.tools.JooqLogger;
+import org.jooq.util.JavaGenerator;
+import org.jooq.util.maven.jpa.model.JPAEntity;
+import org.jooq.util.maven.jpa.writer.EntitiesFileWriter;
+import org.jooq.util.maven.jpa.writer.EntityFileWriter;
+import org.reflections.Reflections;
 
-import com.dooapp.lib.annotation.FX;
-import com.dooapp.lib.event.bus.EventBus;
-
-import javax.inject.Inject;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import javax.persistence.Entity;
+import java.io.File;
+import java.util.Properties;
 
 /**
  * TODO write documentation<br>
@@ -20,36 +20,48 @@ import org.slf4j.LoggerFactory;
  * @since 2.10
  *
  */
-public class JPAGenerator {
+public class JPAGenerator extends JavaGenerator {
 
-	/**
-	 * The famous {@link Logger}
-	 */
-	private static final Logger logger = LoggerFactory.getLogger(JPAGenerator.class);
+	private static final JooqLogger log = JooqLogger.getLogger(JPAGenerator.class);
 
-	/**
-	 * The famous {@link EventBus}
-	 */
-	@Inject
-	private EventBus bus;
+	private final Reflections reflections;
 
-	/**
-	 * The famous {@link java.util.ResourceBundle}
-	 */
-	@Inject
-	private ResourceBundle rb;
+	private final Properties settings;
 
-	/**
-	 * An {@link java.util.concurrent.Executor} going back to the FX-Thread
-	 */
-	@Inject
-	@FX
-	private Executor fx;
+	private String packageName;
 
-	/**
-	 * protected constructor to prevent non IOC instantiation.
-	 */
-	@Inject
-	protected JPAGenerator() {
+	private String jooqPackageName;
+
+	File generation_dir;
+
+	public JPAGenerator(Reflections reflections, Properties settings) {
+		this.reflections = reflections;
+		this.settings = settings;
+		generation_dir = new File(settings.getProperty("projectPath") + System.getProperty("file.separator") + settings.getProperty("directory")
+				+ System.getProperty("file.separator") +
+				settings
+						.getProperty("packageName").replace(".", System.getProperty("file.separator")));
+		if (!generation_dir.exists()) {
+			generation_dir.mkdirs();
+		}
+		packageName = settings.getProperty("packageName");
+		jooqPackageName = settings.getProperty("jooqPackageName");
+	}
+
+	public void execute() {
+		EntitiesFileWriter entitiesFileWriter = new EntitiesFileWriter(generation_dir, settings.getProperty("packageName"));
+		for (Class<?> jpaEntityClass : reflections.getTypesAnnotatedWith(Entity.class)) {
+			generateEntityTable(jpaEntityClass);
+			entitiesFileWriter.addEntity(jpaEntityClass);
+		}
+		entitiesFileWriter.close();
+	}
+
+	private void generateEntityTable(Class<?> jpaClass) {
+		JPAEntity jpaEntity = new JPAEntity(jpaClass);
+		EntityFileWriter entityFileWriter = new EntityFileWriter(jpaEntity, generation_dir, packageName, jooqPackageName);
+		entityFileWriter.open();
+		entityFileWriter.generateContent(reflections);
+		entityFileWriter.close();
 	}
 }
