@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/JPAUtils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376299174768" ignored="false" />
     <file path="/JPAGenerator.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376053576514" ignored="false" />
-    <file path="/fragment.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376382747792" ignored="false" />
+    <file path="/fragment.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497215026" ignored="false" />
     <file path="/EntitiesFileWriter.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376297027383" ignored="false" />
     <file path="W:/jooq-infiltrea/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376311574605" ignored="false" />
     <file path="/JPAJOOQUtils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376057605643" ignored="false" />
@@ -152,7 +152,7 @@
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoy2Table.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376061414508" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl2Table.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376061414508" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/KevinTable.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376061414508" ignored="false" />
-    <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376403873674" ignored="false" />
+    <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497408483" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChildRecord.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376297291087" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChristopheRecord.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376297291087" ignored="false" />
     <file path="/SubGirl1Table.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376057486442" ignored="false" />
@@ -447,9 +447,29 @@
     <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/AbstractEntity.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376382820412" ignored="false" />
     <file path="$PROJECT_DIR$/../jOOQ/src/main/java/org/jooq/impl/Utils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376383539689" ignored="false" />
     <file path="/Utils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376383518045" ignored="false" />
-    <file path="$PROJECT_DIR$/../jOOQ/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376383680841" ignored="false" />
+    <file path="$PROJECT_DIR$/../jOOQ/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497398830" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/Utils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376383740332" ignored="false" />
     <file path="W:/jOOQ-flyway-codegen-maven/atlassian-ide-plugin.xml" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376403873674" ignored="false" />
+    <file path="$PROJECT_DIR$/../jOOQ/src/main/java/org/jooq/impl/jpa/JPAUtils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495784576" ignored="false" />
+    <file path="$PROJECT_DIR$/../jOOQ/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497268458" ignored="false" />
+    <file path="/JPARecordMapper.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497268458" ignored="false" />
+    <file path="$PROJECT_DIR$/../jOOQ/src/test/java/org/jooq/test/jpa/ProjectWithDiscrimColumn.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376494795594" ignored="false" />
+    <file path="/ProjectWithDiscrimColumn.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376494793240" ignored="false" />
+    <file path="$PROJECT_DIR$/../jOOQ/src/test/java/org/jooq/test/jpa/Project2.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495042993" ignored="false" />
+    <file path="/Project2.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495035551" ignored="false" />
+    <file path="$PROJECT_DIR$/../jOOQ/src/test/java/org/jooq/test/jpa/JPATest.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497299905" ignored="false" />
+    <file path="/JPATest.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376496654521" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/jpa/JPARecordMapper.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497398830" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/jpa/JPAUtils.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495905627" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-export-1.6.2.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908254" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.1.0.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908254" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.0.5.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908254" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-3.1.0.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908254" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-querypart-2.0.0.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908254" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.5.0.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908254" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.6.0.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908255" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.3.0.xsd" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376495908255" ignored="false" />
+    <file path="W:/jooq/main/src/main/java/com/dooapp/jooq/main/Main.java" changelist="8c547c53-2572-4dd2-89ec-00408373497c" time="1376497343911" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -464,7 +484,38 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/model/JPAEntity.java" line="48" class="org.jooq.util.maven.jpa.model.JPAEntity" package="org.jooq.util.maven.jpa.model">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/model/JPAEntity.java" line="52" class="org.jooq.util.maven.jpa.model.JPAEntity" package="org.jooq.util.maven.jpa.model">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -501,38 +552,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/model/JPAEntity.java" line="48" class="org.jooq.util.maven.jpa.model.JPAEntity" package="org.jooq.util.maven.jpa.model">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/model/JPAEntity.java" line="52" class="org.jooq.util.maven.jpa.model.JPAEntity" package="org.jooq.util.maven.jpa.model">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -578,10 +598,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectionUtils.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ReflectionUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/ReflectionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="682" selection-end="1335" vertical-scroll-proportion="0.33515882">
+            <state line="22" column="13" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -596,10 +616,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JPAUtils.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JPAUtils.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/JPAUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+            <state line="120" column="0" selection-start="3797" selection-end="4687" vertical-scroll-proportion="0.08762322">
               <folding />
             </state>
           </provider>
@@ -666,6 +686,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -846,20 +867,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -916,19 +936,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -954,6 +961,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1013,7 +1033,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1235,16 +1255,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/JPAUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/ReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+        <state line="22" column="13" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/ReflectionUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/util/maven/jpa/util/JPAUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="682" selection-end="1335" vertical-scroll-proportion="0.33515882">
+        <state line="120" column="0" selection-start="3797" selection-end="4687" vertical-scroll-proportion="0.08762322">
           <folding />
         </state>
       </provider>

@@ -84,7 +84,8 @@ public class JPAUtils {
 	 * @return
 	 */
 	public static InheritanceType getParentInheritenceStrategy(Class<?> jpaClass) {
-		if (jpaClass.getSuperclass().equals(Object.class)) {
+		if (jpaClass.getSuperclass().equals(Object.class) || jpaClass.getSuperclass().isAnnotationPresent
+				(MappedSuperclass.class)) {
 			if (jpaClass.isAnnotationPresent(Inheritance.class)) {
 				return jpaClass.getAnnotation(Inheritance.class).strategy();
 			}
@@ -124,7 +125,8 @@ public class JPAUtils {
 	 * @return
 	 */
 	public static String getDiscriminatorColumn(Class<?> jpaClass) {
-		if (jpaClass.getSuperclass().equals(Object.class)) {
+		if (jpaClass.getSuperclass().equals(Object.class) || jpaClass.getSuperclass().isAnnotationPresent
+				(MappedSuperclass.class)) {
 			if (jpaClass.isAnnotationPresent(DiscriminatorColumn.class)) {
 				return jpaClass.getAnnotation(DiscriminatorColumn.class).name();
 			}

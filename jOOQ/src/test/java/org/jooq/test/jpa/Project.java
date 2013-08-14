@@ -3,9 +3,7 @@ package org.jooq.test.jpa;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * TODO write documentation<br>
@@ -16,6 +14,7 @@ import javax.persistence.Id;
  * @since 1.1
  */
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorValue("PROJECT")
 public class Project {
     /**
