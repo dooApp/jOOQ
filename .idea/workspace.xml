@@ -16,27 +16,30 @@
       <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\jOOQ-jpacodegen-maven\src\main\java\org\jooq\util\maven\Plugin.java" afterPath="" />
       <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\jOOQ-jpacodegen-maven\src\main\resources\META-INF\LICENSE.txt" afterPath="" />
       <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\jOOQ-jpacodegen-maven\src\main\resources\META-INF\README.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/DefaultGeneratorStrategy.java" afterPath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/DefaultGeneratorStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/GenerationUtil.java" afterPath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/GenerationUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/GeneratorStrategyWrapper.java" afterPath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/GeneratorStrategyWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/GeneratorWriter.java" afterPath="$PROJECT_DIR$/jOOQ-codegen/src/main/java/org/jooq/util/GeneratorWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/JOOQJPAEntitiesGenerator.java" afterPath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/JOOQJPAEntitiesGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/JPAGenerator.java" afterPath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/JPAGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-codegen-maven/src/main/java/org/jooq/util/maven/Plugin.java" afterPath="$PROJECT_DIR$/jOOQ-codegen-maven/src/main/java/org/jooq/util/maven/Plugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/ReflectionUtils.java" afterPath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/ReflectionUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/SelectOnConditionStep.java" afterPath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/SelectOnConditionStep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/SelectSelectStep.java" afterPath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/SelectSelectStep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/jooq-jpacodegen-maven.iml" afterPath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/jooq-jpacodegen-maven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/pom.xml" afterPath="$PROJECT_DIR$/jOOQ/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-codegen/pom.xml" afterPath="$PROJECT_DIR$/jOOQ-codegen/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-codegen-maven/pom.xml" afterPath="$PROJECT_DIR$/jOOQ-codegen-maven/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/pom.xml" afterPath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-meta/pom.xml" afterPath="$PROJECT_DIR$/jOOQ-meta/pom.xml" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\main\java\org\jooq\util\maven\ReflectionUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\JPAJOOQEntityTest.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\AbstractEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\Boy.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\Child.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\Christophe.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\Girl.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\Kevin.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\Person.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\SubBoy.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\SubBoy2.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\SubGirl1.java" afterPath="" />
+      <change type="DELETED" beforePath="W:\jOOQ-src\jOOQ-jpacodegen-maven\src\test\java\org\jooq\util\maven\entity\SubGirl2.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/DSLContext.java" afterPath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/DSLContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/impl/DefaultDSLContext.java" afterPath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/impl/DefaultDSLContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/jpa/JPATable.java" afterPath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/jpa/JPATable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/impl/SelectImpl.java" afterPath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/impl/SelectImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/impl/Utils.java" afterPath="$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/impl/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jOOQ-jpacodegen-maven/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jOOQ/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jOOQ/.idea/workspace.xml" />
     </list>
     <ignored path="jOOQ-src.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1376038871528" ignored="false" />
+    <file path="/Dummy.txt" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1376398452224" ignored="false" />
     <file path="W:/jooq/pom.xml" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1375365939000" ignored="false" />
     <file path="/pom.xml" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1375978115882" ignored="false" />
     <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1375437682089" ignored="false" />
@@ -290,6 +293,7 @@
     <file path="/OtherDeviceTable.java" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1375979397440" ignored="false" />
     <file path="W:/jooq-infiltrea/entity/src/main/java/com/dooapp/infiltrea/entity/JOOQEntityManager.java" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1375979556748" ignored="false" />
     <file path="W:/jooq-infiltrea/main/src/main/java/com/dooapp/jooq/main/Main.java" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1375981033449" ignored="false" />
+    <file path="$PROJECT_DIR$/jOOQ/atlassian-ide-plugin.xml" changelist="9b8ff8dc-d52f-45e2-bfe0-b62fcb7cb3c2" time="1376398453602" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +366,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="304" column="44" selection-start="11055" selection-end="11055" vertical-scroll-proportion="0.288">
+            <state line="304" column="44" selection-start="11055" selection-end="11055" vertical-scroll-proportion="0.28865978">
               <folding />
             </state>
           </provider>
@@ -416,7 +420,7 @@
       <file leaf-file-name="JPATable.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/jpa/JPATable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="150" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+            <state line="16" column="150" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -495,8 +499,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1905" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -614,20 +617,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jOOQ-jpacodegen-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jOOQ-src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jOOQ-src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="jOOQ-codegen-maven" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -638,16 +627,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="289" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="289" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="289" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Gradle/bin/.gradle/1.5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="289" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="964" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="968" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="964" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="288" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="282" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -689,19 +678,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -727,6 +703,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -796,8 +785,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1905" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -812,7 +801,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -920,6 +909,13 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/tools/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="25" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/impl/ConditionProviderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="6" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0" />
@@ -945,11 +941,6 @@
         <state line="21" column="13" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="134" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/tools/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="152" column="25" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.0">
@@ -966,7 +957,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jOOQ/src/main/java/org/jooq/jpa/JPATable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="150" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+        <state line="16" column="150" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1015,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="304" column="44" selection-start="11055" selection-end="11055" vertical-scroll-proportion="0.288">
+        <state line="304" column="44" selection-start="11055" selection-end="11055" vertical-scroll-proportion="0.28865978">
           <folding />
         </state>
       </provider>

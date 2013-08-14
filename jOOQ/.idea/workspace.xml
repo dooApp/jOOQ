@@ -5,25 +5,25 @@
     <ignored path="jooq.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/main/java/org/jooq/api/annotation/Transition.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375694527524" ignored="false" />
-    <file path="/SelectImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375709153315" ignored="false" />
+    <file path="/SelectImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376393968872" ignored="false" />
     <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375712704230" ignored="false" />
     <file path="/JPAQueryFactory.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375709595163" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/SelectImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375709297197" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-3.1.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-querypart-2.0.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.5.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.6.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.3.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-export-1.6.2.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.1.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.0.5.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-3.0.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/SelectImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395228112" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-3.1.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-querypart-2.0.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.5.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.6.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.3.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-export-1.6.2.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.1.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-2.0.5.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395624487" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-3.0.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376390130937" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/jpa/JPAQueryFactory.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375708154002" ignored="false" />
     <file path="W:/jooq/main/src/main/java/com/dooapp/jooq/main/Main.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375709319458" ignored="false" />
-    <file path="/fragment.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375708868519" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-export-2.6.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375705002915" ignored="false" />
+    <file path="/fragment.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376386292595" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-export-2.6.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376390130937" ignored="false" />
     <file path="W:/jooq/entity/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710580391" ignored="false" />
-    <file path="/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710579019" ignored="false" />
+    <file path="/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397105915" ignored="false" />
     <file path="W:/jooq/.idea/workspace.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375712705142" ignored="false" />
     <file path="W:/jooq/.idea/libraries/Maven__org_jooq_jooq_codegen_3_2_0_SNAPSHOT.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710584705" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/BoyTable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
@@ -41,6 +41,56 @@
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/KevinTable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
     <file path="$PROJECT_DIR$/../pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375777234643" ignored="false" />
     <file path="W:/xml-rt/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375975850660" ignored="false" />
+    <file path="/Utils.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376384201499" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/Utils.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376384328113" ignored="false" />
+    <file path="W:/dsdk/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376398432618" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/AbstractEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-manager/src/test/java/com/dooapp/dsdk/DSDKManagerImplTest.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376386994425" ignored="false" />
+    <file path="W:/dsdk/dsdk-manager/src/main/java/com/dooapp/dsdk/CrudManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395785668" ignored="false" />
+    <file path="/CrudManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395780688" ignored="false" />
+    <file path="/DSDKManagerImplTest.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376386993519" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/Person.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/Child.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="/DefaultDSLContext.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376388805440" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/DSLContext.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376389680057" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/DefaultDSLContext.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376389680057" ignored="false" />
+    <file path="/JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395465393" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/KevinJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="/KevinJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376389183456" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/PersonJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="/PersonJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376389236218" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/jpa/JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376396297386" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/SelectFromStep.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376390130937" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376396308560" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/GirlJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/Public.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/Keys.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/Tables.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/Person.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/Child.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/BoyJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/SubBoyJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/ChildJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/Kevin.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/ChristopheJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/Christophe.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/Entities.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/SubBoy2JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/Kevin.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/SubBoy2.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/SubGirl2.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/Boy.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/Girl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/SubGirl1.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/Christophe.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/entity/SubBoy.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/Subgirl1.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/SchemaVersion.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/Subgirl2table.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/SubGirl2JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/SubGirl1JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
+    <file path="W:/dsdk-axelliance/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376398432618" ignored="false" />
+    <file path="W:/dsdk-axelliance/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397108152" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +105,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -91,7 +142,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -101,11 +151,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Select.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/Select.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="67" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0">
+            <state line="193" column="36" selection-start="7850" selection-end="7850" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1348" column="54" selection-start="40428" selection-end="40428" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#14286#14296#0" expanded="true" />
+                <element signature="e#14830#14840#0" expanded="true" />
+                <element signature="e#15419#15429#0" expanded="true" />
+                <element signature="e#16026#16036#0" expanded="true" />
+                <element signature="e#16610#16620#0" expanded="true" />
+                <element signature="e#17217#17227#0" expanded="true" />
+                <element signature="e#17804#17814#0" expanded="true" />
+                <element signature="e#18481#18499#0" expanded="true" />
+                <element signature="e#25094#25105#0" expanded="true" />
+                <element signature="e#34564#34589#0" expanded="true" />
+                <element signature="e#35070#35095#0" expanded="true" />
+                <element signature="e#35706#35714#0" expanded="true" />
+                <element signature="e#37913#37921#0" expanded="true" />
+                <element signature="e#39821#39829#0" expanded="true" />
+                <element signature="e#40130#40155#0" expanded="true" />
+                <element signature="e#48350#48357#0" expanded="true" />
+                <element signature="e#67349#67357#0" expanded="true" />
+                <element signature="e#70582#70592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSLContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/DSLContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4587" column="29" selection-start="200417" selection-end="200417" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,16 +205,60 @@
       <file leaf-file-name="SelectImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/SelectImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="188" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.0">
+            <state line="164" column="35" selection-start="4891" selection-end="4891" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="SelectQuery.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="207" column="64" selection-start="8316" selection-end="8316" vertical-scroll-proportion="0.67812145">
+            <state line="97" column="9" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JPATable.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/jpa/JPATable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="41" selection-start="422" selection-end="422" vertical-scroll-proportion="0.36589405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableLike.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/TableLike.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="0" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultDSLContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/DefaultDSLContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1327" column="35" selection-start="77582" selection-end="77582" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2476#2520#0" expanded="true" />
+                <element signature="e#5972#5980#0" expanded="true" />
+                <element signature="e#14610#14620#0" expanded="true" />
+                <element signature="e#14756#14764#0" expanded="true" />
+                <element signature="e#43315#43325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectFromStep.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectFromStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="108" column="50" selection-start="3984" selection-end="3984" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,61 +267,7 @@
       <file leaf-file-name="JPAQueryFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/JPAQueryFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="42" selection-start="3966" selection-end="3966" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCondition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/AbstractCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="27" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FalseCondition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/FalseCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="29" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrueCondition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/TrueCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="6" selection-start="1894" selection-end="1907" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectSelectStep.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectSelectStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="68" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectFromStep.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectFromStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="66" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectWhereStep.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectWhereStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="67" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0">
+            <state line="112" column="40" selection-start="3966" selection-end="3966" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -203,9 +285,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/jooq/jpa/JPAQueryFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jooq/JPAQueryFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/SelectImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/JPAQueryFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/DefaultDSLContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jooq/DSLContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/SelectImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jooq/SelectFromStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jooq/jpa/JPATable.java" />
       </list>
     </option>
   </component>
@@ -220,10 +307,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -251,7 +338,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,6 +359,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,27 +485,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6709265" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -522,52 +609,9 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/SelectImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="188" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectFromStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="66" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectWhereStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="67" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/DSL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="580" column="19" selection-start="19761" selection-end="19761" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="9" selection-start="10746" selection-end="10746" vertical-scroll-proportion="-39.32" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectConnectByStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="17" selection-start="3575" selection-end="3575" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectWhereStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="67" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectFromStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="66" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -609,21 +653,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/JPAQueryFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="42" selection-start="3966" selection-end="3966" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/SelectImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="188" selection-start="4599" selection-end="4599" vertical-scroll-proportion="0.0">
+        <state line="112" column="40" selection-start="3966" selection-end="3966" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="64" selection-start="8316" selection-end="8316" vertical-scroll-proportion="0.67812145">
+        <state line="193" column="36" selection-start="7850" selection-end="7850" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1348" column="54" selection-start="40428" selection-end="40428" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#14286#14296#0" expanded="true" />
+            <element signature="e#14830#14840#0" expanded="true" />
+            <element signature="e#15419#15429#0" expanded="true" />
+            <element signature="e#16026#16036#0" expanded="true" />
+            <element signature="e#16610#16620#0" expanded="true" />
+            <element signature="e#17217#17227#0" expanded="true" />
+            <element signature="e#17804#17814#0" expanded="true" />
+            <element signature="e#18481#18499#0" expanded="true" />
+            <element signature="e#25094#25105#0" expanded="true" />
+            <element signature="e#34564#34589#0" expanded="true" />
+            <element signature="e#35070#35095#0" expanded="true" />
+            <element signature="e#35706#35714#0" expanded="true" />
+            <element signature="e#37913#37921#0" expanded="true" />
+            <element signature="e#39821#39829#0" expanded="true" />
+            <element signature="e#40130#40155#0" expanded="true" />
+            <element signature="e#48350#48357#0" expanded="true" />
+            <element signature="e#67349#67357#0" expanded="true" />
+            <element signature="e#70582#70592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/DefaultDSLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1327" column="35" selection-start="77582" selection-end="77582" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2476#2520#0" expanded="true" />
+            <element signature="e#5972#5980#0" expanded="true" />
+            <element signature="e#14610#14620#0" expanded="true" />
+            <element signature="e#14756#14764#0" expanded="true" />
+            <element signature="e#43315#43325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/TableLike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/DSLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4587" column="29" selection-start="200417" selection-end="200417" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="9" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/SelectFromStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="50" selection-start="3984" selection-end="3984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/SelectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="35" selection-start="4891" selection-end="4891" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/jpa/JPATable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="41" selection-start="422" selection-end="422" vertical-scroll-proportion="0.36589405">
           <folding />
         </state>
       </provider>
