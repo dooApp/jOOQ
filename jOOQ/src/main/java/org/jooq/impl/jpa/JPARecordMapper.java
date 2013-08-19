@@ -4,7 +4,6 @@ import org.jooq.Record;
 import org.jooq.RecordMapper;
 import org.jooq.exception.MappingException;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.InheritanceType;
 
@@ -64,7 +63,7 @@ public class JPARecordMapper<R extends Record, E> implements RecordMapper<R, E> 
 	 * @return the real class linked to the record
 	 */
 	public Class<? extends E> getRealType(Class<? extends E> type, R record) {
-		InheritanceType inheritanceType = JPAUtils.getParentInheritenceStrategy(type);
+		InheritanceType inheritanceType = JPAUtils.getInheritenceStrategy(type);
 		switch (inheritanceType) {
 			case SINGLE_TABLE: {
 				String discriminatorColumn = JPAUtils.getDiscriminatorColumn(type);
@@ -74,7 +73,8 @@ public class JPARecordMapper<R extends Record, E> implements RecordMapper<R, E> 
 				}
 				for (Class<? extends E> c : JPAUtils.getSubTypeOf(type)) {
 					try {
-						if (c.getAnnotation(DiscriminatorValue.class).value().equals(record.getValue(discriminatorColumn))) {
+						String subDiscriminatorValue = JPAUtils.getDiscriminatorValue(c);
+						if (subDiscriminatorValue.equals(record.getValue(discriminatorColumn))) {
 							return c;
 						}
 					} catch (NullPointerException e) {

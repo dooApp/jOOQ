@@ -59,6 +59,8 @@ public class JPAGenerator extends JavaGenerator {
 
 	private void generateEntityTable(Class<?> jpaClass) {
 		JPAEntity jpaEntity = new JPAEntity(jpaClass);
+		log.info("JOOQ entity name : " + jpaEntity.getJooqEntityName());
+		log.info("JOOQ record name : " + jpaEntity.getJooqRecordName());
 		EntityFileWriter entityFileWriter = new EntityFileWriter(jpaEntity, generation_dir, packageName, jooqPackageName);
 		entityFileWriter.open();
 		entityFileWriter.generateContent(reflections);

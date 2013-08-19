@@ -97,7 +97,7 @@ public class JPAUtils {
 	 * @param jpaClass
 	 * @return
 	 */
-	public static String getDiscriminatorColumn(Class<?> jpaClass) {
+	public static String getParentDiscriminatorColumn(Class<?> jpaClass) {
 		if (jpaClass.getSuperclass().equals(Object.class) || jpaClass.getSuperclass().isAnnotationPresent
 				(MappedSuperclass.class)) {
 			if (jpaClass.isAnnotationPresent(DiscriminatorColumn.class)) {
@@ -112,8 +112,23 @@ public class JPAUtils {
 				return jpaClass.getSuperclass().getAnnotation(DiscriminatorColumn.class).name();
 			}
 			else {
-				return getDiscriminatorColumn(jpaClass.getSuperclass());
+				return getParentDiscriminatorColumn(jpaClass.getSuperclass());
 			}
+		}
+	}
+
+	/**
+	 * Returns the nearest parent discriminator column name based on {@link DiscriminatorColumn DiscriminatorColumn annotation}.<br>
+	 * Returns DTYPE if to discriminator column has been found in the hierarchy.
+	 * @param jpaClass
+	 * @return
+	 */
+	public static String getDiscriminatorColumn(Class<?> jpaClass) {
+		if (jpaClass.isAnnotationPresent(DiscriminatorColumn.class)) {
+			return jpaClass.getAnnotation(DiscriminatorColumn.class).name();
+		}
+		else {
+			return getParentDiscriminatorColumn(jpaClass);
 		}
 	}
 
@@ -155,6 +170,21 @@ public class JPAUtils {
 			else {
 				return getParentInheritenceStrategy(jpaClass.getSuperclass());
 			}
+		}
+	}
+
+	/**
+	 * Returns the inheritance strategy based on {@link Inheritance Inheritance annotation}.<br>
+	 * Returns InheritanceType.SINGLE_TABLE by default.
+	 * @param jpaClass
+	 * @return
+	 */
+	public static InheritanceType getInheritenceStrategy(Class<?> jpaClass) {
+		if (jpaClass.isAnnotationPresent(Inheritance.class)) {
+			return jpaClass.getAnnotation(Inheritance.class).strategy();
+		}
+		else {
+			return getParentInheritenceStrategy(jpaClass);
 		}
 	}
 }

@@ -40,6 +40,7 @@ import org.jooq.conf.Settings;
 import org.jooq.exception.DataAccessException;
 import org.jooq.exception.SQLDialectNotSupportedException;
 import org.jooq.impl.BatchCRUD.Action;
+import org.jooq.impl.jpa.JPAUtils;
 import org.jooq.jpa.JPATable;
 import org.jooq.tools.csv.CSVReader;
 
@@ -1314,21 +1315,35 @@ public class DefaultDSLContext implements DSLContext, Serializable {
 	@Override
 	public <R extends Record> R newRecord(Table<R> table) {
 		R record = Utils.newRecord(table, configuration);
-		if (table instanceof JPATable){
+		if (table instanceof JPATable) {
 			JPATable jpaTable = (JPATable) table;
+			updateRecordWithParentsDiscriminatorField(record, jpaTable);
+		}
+		return record;
+	}
+
+	private <R extends Record> void updateRecordWithParentsDiscriminatorField(R record, JPATable table) {
+		if (table != null) {
+			updateRecordWithParentsDiscriminatorField(record, table.getParentTable());
+			updateRecordDiscriminatorField(record, table);
+		}
+	}
+
+	private <R extends Record> void updateRecordDiscriminatorField(R record, JPATable jpaTable) {
+		String discriminatorColumn = JPAUtils.getDiscriminatorColumn(jpaTable.getEntityClass());
+		String parentDiscriminatorColumn = JPAUtils.getParentDiscriminatorColumn(jpaTable.getEntityClass());
+		try {
+			record.setValue((Field<String>) jpaTable.field(discriminatorColumn),
+					jpaTable.getDiscriminatorValue());
+		} catch (Exception e) {
+		}
+		if (!parentDiscriminatorColumn.equals(discriminatorColumn)){
 			try {
-				record.setValue((Field<String>) table.field(jpaTable.getDiscriminatorColumn().toUpperCase()),
+				record.setValue((Field<String>) jpaTable.field(parentDiscriminatorColumn),
 						jpaTable.getDiscriminatorValue());
 			} catch (Exception e) {
 			}
-			try {
-				record.setValue((Field<String>) table.field(jpaTable.getParentTable().getDiscriminatorColumn().toUpperCase
-						()),
-						jpaTable.getParentTable().getDiscriminatorValue());
-			} catch (Exception e) {
-			}
 		}
-		return record;
 	}
 
 	@Override
@@ -1337,9 +1352,6 @@ public class DefaultDSLContext implements DSLContext, Serializable {
 		result.from(source);
 		return result;
 	}
-
-
-
 
 	@Override
 	public <R extends Record> Result<R> newResult(Table<R> table) {

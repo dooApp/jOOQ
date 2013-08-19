@@ -81,9 +81,10 @@ public class JOOQJPAEntitiesGenerator extends AbstractMojo {
 
 	@Override
 	public void execute() throws MojoExecutionException {
+		getLog().info("-------------- jOOQ JPA Entities Generator ------------");
 		settings.put("projectPath", basedir.getPath());
 		for (Object key : settings.keySet()) {
-			getLog().info(key.toString());
+			getLog().info("key:" + key.toString());
 		}
 		try {
 			ReflectionUtils reflectionUtils = new ReflectionUtils(project);
