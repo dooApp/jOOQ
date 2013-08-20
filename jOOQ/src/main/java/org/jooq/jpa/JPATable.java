@@ -1,6 +1,7 @@
 package org.jooq.jpa;
 
 import org.jooq.Record;
+import org.jooq.Table;
 import org.jooq.TableLike;
 
 import javax.persistence.InheritanceType;
@@ -13,7 +14,7 @@ import java.util.List;
  * Time: 22:19
  * To change this template use File | Settings | File Templates.
  */
-public interface JPATable<R extends Record> extends TableLike<R> {
+public interface JPATable<R extends Record> extends Table<R> {
 
 	InheritanceType getInheritanceType();
 
@@ -47,13 +48,13 @@ public interface JPATable<R extends Record> extends TableLike<R> {
 	 * @return
 	 */
 	Class getEntityClass();
-	
+
 	/**
 	 * Returns the parent table. Null if thus table is the top of the hierarchy.
 	 * @return
 	 */
 	JPATable<?> getParentTable();
-	
+
 	/**
 	 * Returns the parent inheritance type.
 	 * @return

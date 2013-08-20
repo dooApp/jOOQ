@@ -1,6 +1,11 @@
 package org.jooq.util.maven.jpa.util;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
+
+import static java.util.Arrays.asList;
+import static java.util.Collections.unmodifiableSet;
 
 /**
  * TODO write documentation<br>
@@ -12,6 +17,60 @@ import javax.persistence.*;
  *
  */
 public class JPAUtils {
+
+	private static Set<String> JAVA_KEYWORDS = unmodifiableSet(new HashSet<String>(asList(
+			"abstract",
+			"assert",
+			"boolean",
+			"break",
+			"byte",
+			"case",
+			"catch",
+			"char",
+			"class",
+			"const",
+			"continue",
+			"default",
+			"double",
+			"do",
+			"else",
+			"enum",
+			"extends",
+			"false",
+			"final",
+			"finally",
+			"float",
+			"for",
+			"goto",
+			"if",
+			"implements",
+			"import",
+			"instanceof",
+			"interface",
+			"int",
+			"long",
+			"native",
+			"new",
+			"package",
+			"private",
+			"protected",
+			"public",
+			"return",
+			"short",
+			"static",
+			"strictfp",
+			"super",
+			"switch",
+			"synchronized",
+			"this",
+			"throw",
+			"throws",
+			"transient",
+			"true",
+			"try",
+			"void",
+			"volatile",
+			"while")));
 
 	/**
 	 * Returns the given string using the Java Class Name convention.<br>
@@ -34,6 +93,35 @@ public class JPAUtils {
 		else {
 			return string.substring(0, 1).toUpperCase() + string.substring(1, string.length());
 		}
+	}
+
+	public static String formatToJavaClassNameAsJOOQ(String literal){
+		if (JAVA_KEYWORDS.contains(literal)) {
+			return literal + "_";
+		}
+
+		StringBuilder sb = new StringBuilder();
+
+		if ("".equals(literal)) {
+			return "_";
+		}
+
+		if (!Character.isJavaIdentifierStart(literal.charAt(0))) {
+			sb.append("_");
+		}
+
+		for (int i = 0; i < literal.length(); i++) {
+			char c = literal.charAt(i);
+
+			if (!Character.isJavaIdentifierPart(c)) {
+				sb.append("_");
+			}
+			else {
+				sb.append(c);
+			}
+		}
+
+		return sb.toString();
 	}
 
 	/**
@@ -84,7 +172,8 @@ public class JPAUtils {
 	 * @return
 	 */
 	public static InheritanceType getParentInheritenceStrategy(Class<?> jpaClass) {
-		if (jpaClass.getSuperclass().equals(Object.class)) {
+		if (jpaClass.getSuperclass().equals(Object.class) || jpaClass.getSuperclass().isAnnotationPresent
+				(MappedSuperclass.class)) {
 			if (jpaClass.isAnnotationPresent(Inheritance.class)) {
 				return jpaClass.getAnnotation(Inheritance.class).strategy();
 			}
@@ -124,7 +213,8 @@ public class JPAUtils {
 	 * @return
 	 */
 	public static String getDiscriminatorColumn(Class<?> jpaClass) {
-		if (jpaClass.getSuperclass().equals(Object.class)) {
+		if (jpaClass.getSuperclass().equals(Object.class) || jpaClass.getSuperclass().isAnnotationPresent
+				(MappedSuperclass.class)) {
 			if (jpaClass.isAnnotationPresent(DiscriminatorColumn.class)) {
 				return jpaClass.getAnnotation(DiscriminatorColumn.class).name();
 			}

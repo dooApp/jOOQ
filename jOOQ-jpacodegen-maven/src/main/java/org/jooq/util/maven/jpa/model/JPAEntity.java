@@ -1,5 +1,6 @@
 package org.jooq.util.maven.jpa.model;
 
+import org.jooq.tools.StringUtils;
 import org.jooq.util.maven.jpa.util.JPAUtils;
 
 import javax.persistence.InheritanceType;
@@ -51,11 +52,13 @@ public class JPAEntity {
 		jpaEntityName = className + JPA_ENTITY_SUFFIXE;
 		if (!JPAUtils.isAnnotatedByTable(jpaClass)) {
 			tableName = JPAUtils.getTableName(jpaClass);
-			jooqEntityName = JPAUtils.formatToJavaClassName(tableName);
+			String cc = StringUtils.toCamelCase(tableName.toLowerCase());
+			jooqEntityName = JPAUtils.formatToJavaClassNameAsJOOQ(cc);//JPAUtils.formatToJavaClassName(tableName);
 		}
 		else {
 			tableName = JPAUtils.getTableName(jpaClass);
-			jooqEntityName = JPAUtils.formatToJavaClassName(tableName.toLowerCase());
+			String cc = StringUtils.toCamelCase(tableName.toLowerCase());
+			jooqEntityName = JPAUtils.formatToJavaClassNameAsJOOQ(cc);//JPAUtils.formatToJavaClassName(tableName);
 		}
 		jooqRecordName = jooqEntityName + JOOQ_RECORD_SUFFIXE;
 		parentInheritanceStrategy = JPAUtils.getParentInheritenceStrategy(jpaClass);

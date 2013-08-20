@@ -12,8 +12,5 @@ import org.slf4j.LoggerFactory;
  * @since 1.1
  */
 public class MethodSetter {
-    /**
-     * The famous {@link org.slf4j.Logger}
-     */
-    private static final Logger logger = LoggerFactory.getLogger(MethodSetter.class);
+
 }

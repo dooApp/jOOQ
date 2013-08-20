@@ -4,6 +4,7 @@ import org.jooq.Condition;
 import org.jooq.Field;
 import org.jooq.Select;
 import org.jooq.TableLike;
+import org.jooq.impl.jpa.JPAUtils;
 import org.jooq.jpa.JPATable;
 
 import java.util.*;
@@ -20,7 +21,7 @@ import java.util.*;
 public class JPAQueryFactory {
 
 	public static Condition createDiscriminatorValuesCondition(JPATable jpaTable) {
-		String discriminatorColumn = jpaTable.getDiscriminatorColumn().toUpperCase();
+		String discriminatorColumn = JPAUtils.getDiscriminatorColumn(jpaTable.getEntityClass());
 		Field<String> discriminatorField = (Field<String>) jpaTable.field(discriminatorColumn);
 		if (discriminatorField == null) {
 			return new TrueCondition();
