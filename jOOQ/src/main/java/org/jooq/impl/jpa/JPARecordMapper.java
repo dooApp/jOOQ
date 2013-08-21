@@ -68,7 +68,11 @@ public class JPARecordMapper<R extends Record, E> implements RecordMapper<R, E> 
 			case SINGLE_TABLE: {
 				String discriminatorColumn = JPAUtils.getDiscriminatorColumn(type);
 				String discriminatorValue = JPAUtils.getDiscriminatorValue(type);
-				if (discriminatorValue.equals(record.getValue(discriminatorColumn))) {
+				try {
+					if (discriminatorValue.equals(record.getValue(discriminatorColumn))) {
+						return type;
+					}
+				} catch (Exception e) {   // the discriminator column doesn't exist
 					return type;
 				}
 				for (Class<? extends E> c : JPAUtils.getSubTypeOf(type)) {

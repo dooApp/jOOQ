@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/main/java/org/jooq/api/annotation/Transition.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375694527524" ignored="false" />
     <file path="/SelectImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376393968872" ignored="false" />
-    <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376925552391" ignored="false" />
+    <file path="W:/jooq/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097468357" ignored="false" />
     <file path="/JPAQueryFactory.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376915217572" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/SelectImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376395228112" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-3.1.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376495908255" ignored="false" />
@@ -20,11 +20,11 @@
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-runtime-3.0.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376390130937" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/jpa/JPAQueryFactory.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375708154002" ignored="false" />
     <file path="W:/jooq/main/src/main/java/com/dooapp/jooq/main/Main.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917133148" ignored="false" />
-    <file path="/fragment.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376926394626" ignored="false" />
+    <file path="/fragment.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377078486359" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT.jar!/xsd/jooq-export-2.6.0.xsd" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376390130937" ignored="false" />
-    <file path="W:/jooq/entity/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710580391" ignored="false" />
-    <file path="/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917990336" ignored="false" />
-    <file path="W:/jooq/.idea/workspace.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375712705142" ignored="false" />
+    <file path="W:/jooq/entity/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097404465" ignored="false" />
+    <file path="/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097213347" ignored="false" />
+    <file path="W:/jooq/.idea/workspace.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097467627" ignored="false" />
     <file path="W:/jooq/.idea/libraries/Maven__org_jooq_jooq_codegen_3_2_0_SNAPSHOT.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710584705" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/BoyTable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoyTable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
@@ -32,9 +32,9 @@
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl1Table.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/ChildTable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/PersonTable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/Subgirl2tableRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/Entities.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/Subgirl1Record.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/Subgirl2tableRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/Entities.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/Subgirl1Record.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoy2Table.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl2Table.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/ChristopheTable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1375710607599" ignored="false" />
@@ -91,50 +91,50 @@
     <file path="W:/dsdk/dsdk-entity/src/main/java/com/dooapp/dsdk/jooq/tables/entities/SubGirl1JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397046019" ignored="false" />
     <file path="W:/dsdk-axelliance/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376398432618" ignored="false" />
     <file path="W:/dsdk-axelliance/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376397108152" ignored="false" />
-    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/jpa/JPARecordMapper.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376915776013" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/jpa/JPARecordMapper.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377077786227" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/jpa/JPAUtils.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376911669094" ignored="false" />
     <file path="/AbstractEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376490392923" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/entity/AbstractEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376490393403" ignored="false" />
     <file path="/FieldSetter.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376491236368" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/jpa/FieldSetter.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376491533997" ignored="false" />
     <file path="/Main.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917057213" ignored="false" />
-    <file path="/JPARecordMapper.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376915667617" ignored="false" />
+    <file path="/JPARecordMapper.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377077638866" ignored="false" />
     <file path="/Project.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376494277140" ignored="false" />
     <file path="/ProjectWithDiscrimColumn.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376494793240" ignored="false" />
     <file path="/JPATest.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376496654521" ignored="false" />
     <file path="/SubProjectWithDiscrimColumn.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376492818705" ignored="false" />
-    <file path="$PROJECT_DIR$/../jOOQ-jpacodegen-maven/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376912415706" ignored="false" />
+    <file path="$PROJECT_DIR$/../jOOQ-jpacodegen-maven/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097468357" ignored="false" />
     <file path="/Project2.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376495035551" ignored="false" />
     <file path="$PROJECT_DIR$/../jOOQ-jpacodegen-maven/src/main/java/org/jooq/util/maven/jpa/util/JPAUtils.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376495709574" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/SchemaVersion.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoyJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/PersonRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl1JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/ChristopheJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/ChildJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/Public.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Child.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/PersonJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChristopheRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/BoyJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Person.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Subgirl1.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/Keys.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/GirlJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChildRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/KevinJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Kevin.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl2JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/KevinRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Subgirl2table.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoy2JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Christophe.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
-    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/Tables.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376904121856" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/SchemaVersion.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoyJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/PersonRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl1JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/ChristopheJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/ChildJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/Public.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Child.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/PersonJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChristopheRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/BoyJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Person.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Subgirl1.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/Keys.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/GirlJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/ChildRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/KevinJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Kevin.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubGirl2JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/KevinRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Subgirl2table.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/SubBoy2JPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/Christophe.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/Tables.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
     <file path="/JPAUtils.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376911465149" ignored="false" />
     <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/entity/SubGirl2.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376906452719" ignored="false" />
     <file path="/SubGirl2.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376906449540" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/jooq/jooq/3.2.0-SNAPSHOT/jooq-3.2.0-SNAPSHOT-sources.jar!/org/jooq/impl/JPAQueryFactory.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376915373008" ignored="false" />
-    <file path="W:/jooq/manager/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917688607" ignored="false" />
+    <file path="W:/jooq/manager/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377082675632" ignored="false" />
     <file path="W:/jooq/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917605397" ignored="false" />
     <file path="W:/jooq/manager/manager.iml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917704253" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/CrudManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917851848" ignored="false" />
@@ -142,16 +142,16 @@
     <file path="/H2FileDSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376927497153" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/H2FileDSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923147739" ignored="false" />
     <file path="W:/jooq/main/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376917991948" ignored="false" />
-    <file path="W:/jooq/main/src/main/java/com/dooapp/jooq/main/MainManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376925655102" ignored="false" />
-    <file path="/MainManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376925651711" ignored="false" />
+    <file path="W:/jooq/main/src/main/java/com/dooapp/jooq/main/MainManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377095909533" ignored="false" />
+    <file path="/MainManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377082530622" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/H2InMemoryDSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923147739" ignored="false" />
     <file path="/H2InMemoryDSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376918509847" ignored="false" />
     <file path="/a.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376918309864" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/ReflectionUtils.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376919365822" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKStoredEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376922391513" ignored="false" />
     <file path="/DSDKStoredEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376922386639" ignored="false" />
-    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376925738317" ignored="false" />
-    <file path="/DSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376925720583" ignored="false" />
+    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377078679568" ignored="false" />
+    <file path="/DSDKManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377078678876" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376922521120" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/BackupManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923136318" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/BackupManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923136318" ignored="false" />
@@ -159,12 +159,36 @@
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/backup/BackupManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923163034" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/crud/CrudManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923163034" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/crud/CrudManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923163034" ignored="false" />
-    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/crud/FileCrudManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376925099054" ignored="false" />
+    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/crud/FileCrudManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377095415318" ignored="false" />
     <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/manager/crud/MemoryCrudManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376923237348" ignored="false" />
-    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376927497153" ignored="false" />
-    <file path="/DSDKManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376925385093" ignored="false" />
-    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKLoader.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376927312704" ignored="false" />
-    <file path="/DSDKLoader.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1376927296311" ignored="false" />
+    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377093863602" ignored="false" />
+    <file path="/DSDKManagerImpl.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377093843998" ignored="false" />
+    <file path="W:/jooq/manager/src/main/java/com/dooapp/dsdk/DSDKLoader.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377092041599" ignored="false" />
+    <file path="/DSDKLoader.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377092032148" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/entity/AbstractFileEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377079541157" ignored="false" />
+    <file path="/AbstractFileEntity.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377079529726" ignored="false" />
+    <file path="W:/jooq/entity/src/main/resources/db/migration/V8__ALTER_OPERATION_PREVIEW_TABLE.sql" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377079933933" ignored="false" />
+    <file path="/V8__ALTER_OPERATION_PREVIEW_TABLE.sql" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377079909237" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/OperationPreview.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/OperationPreviewRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/entities/OperationPreviewJPATable.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/generated/tables/records/SchemaVersionRecord.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097403502" ignored="false" />
+    <file path="W:/jooq/manager/src/test/java/com/dooapp/dsdk/manager/DSDKManagerTest.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377093713854" ignored="false" />
+    <file path="/DSDKManagerTest.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377093713854" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096630805" ignored="false" />
+    <file path="W:/infiltrea/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377095943672" ignored="false" />
+    <file path="/a.dummy" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377094490612" ignored="false" />
+    <file path="W:/jooq/entity/src/main/java/com/dooapp/jooq/entity/JOOQEntityManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377095333331" ignored="false" />
+    <file path="/JOOQEntityManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377095330726" ignored="false" />
+    <file path="/FileCrudManager.java" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377095411889" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/flyway-maven-plugin/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096744948" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/flyway-maven-plugin/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096054666" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096744948" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/atlassian-ide-plugin.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377097468357" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/hibernate-cfg-generator-maven-plugin/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096744948" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/properties-crypter-maven-plugin/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096744948" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/maven-fxml-plugin/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096744948" ignored="false" />
+    <file path="W:/dooapp-maven-plugin/maven-nsis-plugin/pom.xml" changelist="e4d95bdb-7c30-46f7-84b5-304f6d76ce9e" time="1377096744948" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +241,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java" line="96" class="org.jooq.impl.jpa.JPARecordMapper" package="org.jooq.impl.jpa">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java" line="100" class="org.jooq.impl.jpa.JPARecordMapper" package="org.jooq.impl.jpa">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -287,10 +311,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JPARecordMapper.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JPARecordMapper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="49" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0">
+            <state line="74" column="83" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.31390134">
               <folding />
             </state>
           </provider>
@@ -323,13 +347,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultDSLContext.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DefaultDSLContext.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/DefaultDSLContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1345" column="9" selection-start="78240" selection-end="78240" vertical-scroll-proportion="0.4641638">
-              <folding>
-                <element signature="e#2511#2555#0" expanded="true" />
-              </folding>
+            <state line="1345" column="9" selection-start="78240" selection-end="78240" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -358,8 +380,8 @@
         <option value="$PROJECT_DIR$/src/test/java/org/jooq/test/jpa/JPATest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPAUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/JPAQueryFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/DefaultDSLContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java" />
       </list>
     </option>
   </component>
@@ -405,6 +427,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -642,7 +665,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -789,19 +811,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -827,6 +836,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1116,19 +1138,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/DefaultDSLContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="49" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0">
+        <state line="1345" column="9" selection-start="78240" selection-end="78240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/DefaultDSLContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jooq/impl/jpa/JPARecordMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1345" column="9" selection-start="78240" selection-end="78240" vertical-scroll-proportion="0.4641638">
-          <folding>
-            <element signature="e#2511#2555#0" expanded="true" />
-          </folding>
+        <state line="74" column="83" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.31390134">
+          <folding />
         </state>
       </provider>
     </entry>
